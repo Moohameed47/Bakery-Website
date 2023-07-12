@@ -1,0 +1,760 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+* body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*    <home>    */
+.home {
+  background-image: url("../Images/drew-coffman-1872.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+  overflow: auto;
+  width: 100%;
+}
+.home .nav {
+  position: fixed;
+  width: 100%;
+}
+.home .nav .container {
+  width: 90%;
+  margin: auto;
+}
+.home .nav .container .nav-logo {
+  width: 13%;
+  float: left;
+  margin-top: 10px;
+}
+.home .nav .container .nav-logo img {
+  width: 100%;
+}
+.home .nav .container .clr {
+  clear: both;
+}
+.home .nav .container .nav-link ul {
+  margin-top: 25px;
+  float: right;
+}
+.home .nav .container .nav-link ul li {
+  list-style: none;
+  float: left;
+  margin: 0px 15px;
+}
+.home .nav .container .nav-link ul li a {
+  text-decoration: none;
+  color: white;
+}
+.home .nav .container .nav-link ul li a:hover {
+  color: #8e7754;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.home .home-cap {
+  text-align: center;
+  color: white;
+  margin-top: 220px;
+}
+.home .home-cap P {
+  font-size: 23px;
+}
+.home .home-cap H1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.home .home-cap .btn {
+  padding: 17px;
+  border-radius: 5px;
+  font-size: 17px;
+  margin: 20px 5px;
+  color: white;
+}
+.home .home-cap .btn-1 {
+  background-color: #8e7754;
+  border-width: 0;
+}
+.home .home-cap .btn-2 {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  .home .home-cap {
+    margin-top: 190px;
+  }
+  .home .home-cap P {
+    font-size: 22px;
+  }
+  .home .home-cap H1 {
+    font-size: 50px;
+  }
+  .home .home-cap .btn {
+    padding: 15px;
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 750px) {
+  .home {
+    height: 60vh;
+  }
+  .home .home-cap {
+    margin-top: 230px;
+  }
+  .home .home-cap P {
+    font-size: 14px;
+    margin: 1px;
+  }
+  .home .home-cap H1 {
+    font-size: 40px;
+    margin: 1px;
+  }
+  .home .home-cap .btn {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .nav-link {
+    width: 63%;
+    margin: auto;
+    text-align: center;
+  }
+  .nav-link ul {
+    margin-top: 25px;
+    float: none;
+  }
+  .nav-link ul li {
+    list-style: none;
+    float: none;
+    margin: 0px 5px;
+  }
+  .nav-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 610px) {
+  .home {
+    height: 500px;
+  }
+  .home .home-cap {
+    margin-top: 190px;
+  }
+  .home .home-cap P {
+    font-size: 14px;
+    margin: 1px;
+  }
+  .home .home-cap H1 {
+    font-size: 30px;
+    margin: 1px;
+  }
+  .home .home-cap .btn {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .nav-link {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .nav-link ul {
+    margin-top: 25px;
+    float: none;
+  }
+  .nav-link ul li {
+    list-style: none;
+    float: none;
+    margin: 0px 5px;
+  }
+  .nav-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 610px) and (min-width: 460px) {
+  .home .home-cap {
+    margin-top: 120px;
+  }
+  .home .home-cap P {
+    font-size: 14px;
+    margin: 1px;
+  }
+  .home .home-cap H1 {
+    font-size: 30px;
+    margin: 1px;
+  }
+  .home .home-cap .btn {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .nav-link {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .nav-link ul {
+    margin-top: 25px;
+    float: none;
+  }
+  .nav-link ul li {
+    list-style: none;
+    float: none;
+    margin: 0px 5px;
+  }
+  .nav-logo {
+    display: none;
+  }
+}
+/*    </home>   */
+/*    <About>   */
+.about {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  height: 525px;
+}
+.about .about-img {
+  width: 40%;
+  float: left;
+}
+.about .about-img img {
+  width: 100%;
+}
+.about .about-cap {
+  width: 50%;
+  float: right;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  color: #686868;
+  margin-right: 20px;
+}
+.about .about-cap h2 {
+  color: black;
+}
+.about .about-cap p {
+  margin: 20px 0px;
+}
+.about .about-cap .about-list {
+  text-align: left;
+}
+.about .about-cap .about-list ul li {
+  padding: 15px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  .about {
+    width: 90%;
+    margin-top: 50px;
+    height: 400px;
+  }
+  .about .about-cap {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .about .about-cap p {
+    margin: 10px 0px;
+  }
+  .about .about-cap .about-list ul li {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 750px) {
+  .about {
+    width: 95%;
+    margin-top: 40px;
+    height: 400px;
+  }
+  .about .about-cap {
+    font-size: 12px;
+  }
+  .about .about-cap p {
+    margin: 8px 0px;
+  }
+  .about .about-cap .about-list ul li {
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 610px) {
+  .about {
+    width: 95%;
+    margin-top: 40px;
+    height: 400px;
+  }
+  .about .about-cap {
+    font-size: 10px;
+  }
+  .about .about-cap p {
+    margin: 5px 0px;
+  }
+  .about .about-cap .about-list ul li {
+    padding: 3px;
+  }
+}
+@media screen and (max-width: 610px) and (min-width: 460px) {
+  .about {
+    width: 95%;
+    margin-top: 20px;
+    height: 190px;
+  }
+  .about .about-cap {
+    font-size: 15px;
+  }
+  .about .about-cap p {
+    font-size: 12px;
+    margin: 10px 0px;
+  }
+  .about .about-cap .about-list ul {
+    display: none;
+  }
+}
+/*    </About>  */
+/*    <Our Offer>  */
+.offer {
+  height: 488px;
+  width: 90%;
+  margin: auto;
+}
+.offer .offer-cap {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin: 50px 30px;
+  color: #686868;
+}
+.offer .offer-cap h2 {
+  color: black;
+}
+.offer .offer-cap p {
+  margin: 30px 0px;
+}
+.offer .offer-img {
+  width: 40%;
+  float: right;
+}
+.offer .offer-img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  .offer {
+    height: 370px;
+    width: 90%;
+    margin: auto;
+  }
+  .offer .offer-cap {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 40px 30px;
+  }
+  .offer .offer-cap p {
+    margin: 20px 0px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 750px) {
+  .offer {
+    height: 320px;
+    width: 95%;
+    margin: auto;
+  }
+  .offer .offer-cap {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 20px 15px;
+  }
+  .offer .offer-cap p {
+    font-size: 15px;
+    margin: 15px 0px;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 610px) {
+  .offer {
+    height: 300px;
+    width: 95%;
+    margin: auto;
+  }
+  .offer .offer-cap {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 5px 5px;
+  }
+  .offer .offer-cap p {
+    font-size: 12px;
+    margin: 5px 0px;
+  }
+}
+@media screen and (max-width: 610px) and (min-width: 460px) {
+  .offer {
+    height: 370px;
+    width: 90%;
+    margin: auto;
+  }
+  .offer .offer-cap {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 40px 30px;
+  }
+  .offer .offer-cap p {
+    margin: 20px 0px;
+  }
+}
+/*    </Our Offer>  */
+/*    <Our Baking>  */
+.baking {
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.baking .meal {
+  width: 33%;
+  text-align: center;
+  float: left;
+}
+.baking .meal .inner {
+  padding: 30px;
+}
+.baking .meal .inner img {
+  width: 100%;
+}
+.baking .meal .inner h5 {
+  margin-bottom: 10px;
+}
+.baking .meal .inner p {
+  color: #686868;
+}
+
+@media screen and (max-width: 1050px) and (min-width: 950px) {
+  .baking {
+    height: 400px;
+    width: 90%;
+  }
+  .baking .meal {
+    width: 33%;
+    float: left;
+  }
+  .baking .meal .inner {
+    padding: 25px;
+  }
+  .baking .meal .inner h5 {
+    margin-bottom: 10px;
+  }
+  .baking .meal .inner p {
+    font-size: 15px;
+    color: #686868;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 750px) {
+  .baking {
+    height: 380px;
+    width: 95%;
+  }
+  .baking .meal {
+    width: 33%;
+    float: left;
+  }
+  .baking .meal .inner {
+    padding: 20px;
+  }
+  .baking .meal .inner h5 {
+    margin-bottom: 9px;
+  }
+  .baking .meal .inner p {
+    font-size: 13px;
+    color: #686868;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 610px) {
+  .baking {
+    height: 750px;
+    width: 95%;
+  }
+  .baking .meal {
+    width: 49%;
+    float: left;
+  }
+  .baking .meal .inner {
+    padding: 20px;
+  }
+  .baking .meal .inner h5 {
+    margin-bottom: 9px;
+  }
+  .baking .meal .inner p {
+    font-size: 13px;
+    color: #686868;
+  }
+}
+@media screen and (max-width: 610px) and (min-width: 460px) {
+  .baking {
+    height: 1680px;
+    width: 95%;
+  }
+  .baking .meal {
+    width: 80%;
+    margin: auto;
+    float: none;
+  }
+  .baking .meal .inner {
+    padding: 20px;
+  }
+  .baking .meal .inner h5 {
+    margin-bottom: 9px;
+  }
+  .baking .meal .inner p {
+    font-size: 13px;
+    color: #686868;
+  }
+}
+/*    </Our Baking>  */
+/*    <Footer>  */
+.footer {
+  margin-top: 50px;
+}
+.footer .container-fluid {
+  padding: 10px;
+  height: 420px;
+  width: 100%;
+  background-color: rgb(70, 68, 68);
+  text-align: center;
+}
+.footer .container-fluid .Sec {
+  width: 25%;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  color: white;
+  text-align: left;
+}
+.footer .container-fluid .Sec p {
+  line-height: 30px;
+  font-size: 14px;
+}
+.footer .container-fluid .Sec h1 {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+.footer .container-fluid .Sec ul {
+  margin-top: 15px;
+}
+.footer .container-fluid .Sec ul li {
+  list-style-type: none;
+  line-height: 40px;
+  font-size: 14px;
+}
+.footer .container-fluid .footer-logo {
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  width: 100%;
+}
+.footer .container-fluid .footer-logo img {
+  width: 18%;
+}
+.footer .container-fluid p {
+  color: rgb(140, 139, 139);
+}
+
+@media screen and (max-width: 1050px) and (min-width: 950px) {
+  .footer {
+    margin-top: 20px;
+  }
+  .footer .container-fluid {
+    padding: 10px;
+    height: 420px;
+    width: 100%;
+    background-color: rgb(70, 68, 68);
+    text-align: center;
+  }
+  .footer .container-fluid .Sec {
+    padding: 20px;
+    text-align: left;
+  }
+  .footer .container-fluid .Sec p {
+    line-height: 26px;
+    font-size: 13px;
+  }
+  .footer .container-fluid .Sec h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .footer .container-fluid .Sec ul {
+    margin-top: 15px;
+  }
+  .footer .container-fluid .Sec ul li {
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 13px;
+  }
+  .footer .container-fluid p {
+    color: rgb(140, 139, 139);
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 750px) {
+  .footer {
+    margin-top: 40px;
+  }
+  .footer .container-fluid {
+    padding: 10px;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(70, 68, 68);
+    text-align: center;
+  }
+  .footer .container-fluid .Sec {
+    width: 25%;
+    float: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    text-align: left;
+  }
+  .footer .container-fluid .Sec p {
+    line-height: 20px;
+    font-size: 12px;
+  }
+  .footer .container-fluid .Sec h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .footer .container-fluid .Sec ul {
+    margin-top: 10px;
+  }
+  .footer .container-fluid .Sec ul li {
+    list-style-type: none;
+    line-height: 25px;
+    font-size: 12px;
+  }
+  .footer .container-fluid .footer-logo {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+  }
+  .footer .container-fluid .footer-logo img {
+    width: 18%;
+  }
+  .footer .container-fluid p {
+    color: rgb(140, 139, 139);
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 610px) {
+  .footer {
+    margin-top: 60px;
+  }
+  .footer .container-fluid {
+    padding: 25px;
+    height: 620px;
+    width: 100%;
+    background-color: rgb(70, 68, 68);
+    text-align: center;
+  }
+  .footer .container-fluid .Sec {
+    width: 47%;
+    float: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    text-align: left;
+  }
+  .footer .container-fluid .Sec p {
+    line-height: 20px;
+    font-size: 15px;
+  }
+  .footer .container-fluid .Sec h1 {
+    font-size: 25px;
+    margin-bottom: 22px;
+  }
+  .footer .container-fluid .Sec ul {
+    margin-top: 10px;
+  }
+  .footer .container-fluid .Sec ul li {
+    list-style-type: none;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .footer .container-fluid .footer-logo {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+  }
+  .footer .container-fluid .footer-logo img {
+    width: 18%;
+  }
+  .footer .container-fluid p {
+    color: rgb(140, 139, 139);
+  }
+}
+@media screen and (max-width: 610px) and (min-width: 460px) {
+  .footer {
+    margin-top: 0px;
+  }
+  .footer .container-fluid {
+    padding: 10px;
+    height: 1250px;
+    width: 100%;
+    background-color: rgb(70, 68, 68);
+    text-align: center;
+    margin: auto;
+    text-align: center;
+  }
+  .footer .container-fluid .Sec {
+    width: 80%;
+    text-align: center;
+    float: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    text-align: left;
+  }
+  .footer .container-fluid .Sec p {
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .footer .container-fluid .Sec h1 {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+  .footer .container-fluid .Sec ul {
+    margin-top: 15px;
+  }
+  .footer .container-fluid .Sec ul li {
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  .footer .container-fluid .footer-logo {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+  }
+  .footer .container-fluid .footer-logo img {
+    width: 18%;
+  }
+  .footer .container-fluid p {
+    color: rgb(140, 139, 139);
+  }
+}
+/*    </Footer>  */
+.Scroll {
+  display: none;
+  z-index: 9999;
+}
+.Scroll button {
+  background-color: #8e7754;
+  padding: 5px 7.5px;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
